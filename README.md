@@ -82,22 +82,15 @@ Join the Discord server to ask questions, share builds, report bugs, or follow d
 
 ## Credits
 
-<br>
+<p align="center">
+  <sub>LEAD DEVELOPER</sub><br>
+  <strong>[Your name here]</strong>
+</p>
 
-<table align="center" width="60%">
-  <tr>
-    <td align="center" width="50%">
-      <strong>Lead Developer</strong><br><br>
-      [Your name here]
-    </td>
-    <td align="center" width="50%">
-      <strong>Supporters</strong><br><br>
-      [Supporter names here]
-    </td>
-  </tr>
-</table>
-
-<br>
+<p align="center">
+  <sub>SUPPORTERS</sub><br>
+  [Supporter names here]
+</p>
 
 ---
 
