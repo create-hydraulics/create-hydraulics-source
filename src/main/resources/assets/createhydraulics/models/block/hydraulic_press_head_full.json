@@ -1,0 +1,8 @@
+{
+	"__comment": "Full (fluid-loaded) variant of the press head: same geometry as hydraulic_press_head, with texture #0 set to hydraulic_press_full. Drawn by HydraulicPressRenderer when FULL=true so the head's hazard stripes match the loaded body.",
+	"parent": "createhydraulics:block/hydraulic_press_head",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "createhydraulics:block/hydraulic_press_full"
+	}
+}

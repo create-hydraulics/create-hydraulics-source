@@ -1,0 +1,17 @@
+{
+	"__comment": "The Hydraulic Drill: an andesite casing wrapped in iron sheet with a pressure pipe behind it and a drill bit (Create's mechanical drill plus a diamond tip) driving out the front. Distinct from the Press/Fist shaped recipes.",
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"S": { "item": "create:iron_sheet" },
+		"C": { "item": "create:andesite_casing" },
+		"P": { "item": "createhydraulics:hardened_iron_pipe" },
+		"D": { "item": "create:mechanical_drill" }
+	},
+	"pattern": [
+		"SDS",
+		"SCS",
+		"SPS"
+	],
+	"result": { "count": 1, "id": "createhydraulics:hydraulic_drill" }
+}

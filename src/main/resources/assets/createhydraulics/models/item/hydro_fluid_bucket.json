@@ -1,0 +1,7 @@
+{
+	"__comment": "Hydro Fluid bucket — flat item icon from textures/item/bucket_water.png.",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "createhydraulics:item/bucket_water"
+	}
+}

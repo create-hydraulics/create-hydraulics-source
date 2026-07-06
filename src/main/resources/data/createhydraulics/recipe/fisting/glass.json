@@ -1,0 +1,12 @@
+{
+	"__comment": "Hydraulic Fist: shatters glass back into sand.",
+	"type": "createhydraulics:fisting",
+	"ingredient": {
+		"item": "minecraft:glass"
+	},
+	"result": {
+		"id": "minecraft:sand",
+		"count": 1
+	},
+	"processing_time": 100
+}

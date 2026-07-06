@@ -1,0 +1,18 @@
+{
+	"__comment": "FACING is the shaft/output face; the rotating shaft is added by HydraulicMotorRenderer. Horizontal facings use the body model, vertical facings the _vertical model (like Create's creative motor). The body export is authored with its shaft toward -Z (north), so horizontal y-rotations are 0/90/180/270 for north/east/south/west. 'full' swaps to the fuelled texture while the tank holds fluid.",
+	"variants": {
+		"facing=north,full=false": { "model": "createhydraulics:block/hydraulic_motor" },
+		"facing=east,full=false":  { "model": "createhydraulics:block/hydraulic_motor", "y": 90 },
+		"facing=south,full=false": { "model": "createhydraulics:block/hydraulic_motor", "y": 180 },
+		"facing=west,full=false":  { "model": "createhydraulics:block/hydraulic_motor", "y": 270 },
+		"facing=up,full=false":    { "model": "createhydraulics:block/hydraulic_motor_vertical" },
+		"facing=down,full=false":  { "model": "createhydraulics:block/hydraulic_motor_vertical", "x": 180 },
+
+		"facing=north,full=true":  { "model": "createhydraulics:block/hydraulic_motor_full" },
+		"facing=east,full=true":   { "model": "createhydraulics:block/hydraulic_motor_full", "y": 90 },
+		"facing=south,full=true":  { "model": "createhydraulics:block/hydraulic_motor_full", "y": 180 },
+		"facing=west,full=true":   { "model": "createhydraulics:block/hydraulic_motor_full", "y": 270 },
+		"facing=up,full=true":     { "model": "createhydraulics:block/hydraulic_motor_vertical_full" },
+		"facing=down,full=true":   { "model": "createhydraulics:block/hydraulic_motor_vertical_full", "x": 180 }
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"__comment": "Motor body with the fuelled 'full' texture; shown while the working-fluid tank holds Hydro Fluid. Inherits geometry from the export and only rebinds the texture.",
+	"parent": "createhydraulics:hydraulic_motor",
+	"render_type": "minecraft:cutout",
+	"texture_size": [16, 16],
+	"textures": {
+		"4": "createhydraulics:block/hydraulic_motor_full",
+		"particle": "createhydraulics:block/hydraulic_motor_full"
+	}
+}

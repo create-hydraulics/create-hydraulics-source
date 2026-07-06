@@ -1,0 +1,24 @@
+{
+	"__comment": "3 texture states via 'full'/'running'. full=false -> empty; full=true,running=false -> full_off; full=true,running=true -> full_on. 'facing' spins the casing about Y (cosmetic; the unit always draws pressure from below).",
+	"variants": {
+		"facing=north,full=false,running=false": { "model": "createhydraulics:block/hydraulic_assembly_unit_empty" },
+		"facing=east,full=false,running=false":  { "model": "createhydraulics:block/hydraulic_assembly_unit_empty", "y": 90 },
+		"facing=south,full=false,running=false": { "model": "createhydraulics:block/hydraulic_assembly_unit_empty", "y": 180 },
+		"facing=west,full=false,running=false":  { "model": "createhydraulics:block/hydraulic_assembly_unit_empty", "y": 270 },
+
+		"facing=north,full=false,running=true": { "model": "createhydraulics:block/hydraulic_assembly_unit_empty" },
+		"facing=east,full=false,running=true":  { "model": "createhydraulics:block/hydraulic_assembly_unit_empty", "y": 90 },
+		"facing=south,full=false,running=true": { "model": "createhydraulics:block/hydraulic_assembly_unit_empty", "y": 180 },
+		"facing=west,full=false,running=true":  { "model": "createhydraulics:block/hydraulic_assembly_unit_empty", "y": 270 },
+
+		"facing=north,full=true,running=false": { "model": "createhydraulics:block/hydraulic_assembly_unit_full_off" },
+		"facing=east,full=true,running=false":  { "model": "createhydraulics:block/hydraulic_assembly_unit_full_off", "y": 90 },
+		"facing=south,full=true,running=false": { "model": "createhydraulics:block/hydraulic_assembly_unit_full_off", "y": 180 },
+		"facing=west,full=true,running=false":  { "model": "createhydraulics:block/hydraulic_assembly_unit_full_off", "y": 270 },
+
+		"facing=north,full=true,running=true": { "model": "createhydraulics:block/hydraulic_assembly_unit_full_on" },
+		"facing=east,full=true,running=true":  { "model": "createhydraulics:block/hydraulic_assembly_unit_full_on", "y": 90 },
+		"facing=south,full=true,running=true": { "model": "createhydraulics:block/hydraulic_assembly_unit_full_on", "y": 180 },
+		"facing=west,full=true,running=true":  { "model": "createhydraulics:block/hydraulic_assembly_unit_full_on", "y": 270 }
+	}
+}

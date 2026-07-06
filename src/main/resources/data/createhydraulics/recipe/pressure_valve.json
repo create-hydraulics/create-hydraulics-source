@@ -1,0 +1,16 @@
+{
+	"__comment": "A pipe section with a redstone-actuated shutoff: pipe core, iron-sheet body, redstone on the control faces.",
+	"type": "minecraft:crafting_shaped",
+	"category": "redstone",
+	"key": {
+		"S": { "item": "create:iron_sheet" },
+		"P": { "item": "createhydraulics:hardened_iron_pipe" },
+		"R": { "item": "minecraft:redstone" }
+	},
+	"pattern": [
+		" R ",
+		"SPS",
+		" R "
+	],
+	"result": { "count": 1, "id": "createhydraulics:pressure_valve" }
+}

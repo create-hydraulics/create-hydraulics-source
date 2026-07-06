@@ -1,0 +1,9 @@
+{
+	"__comment": "Single static model rotated by FACING. The pass-through stubs always read along the facing axis. The rotating needle is NOT here — it is drawn by FlowGaugeRenderer, which applies the same FACING rotation so it stays aligned with the body.",
+	"variants": {
+		"facing=north": { "model": "createhydraulics:block/flow_gauge" },
+		"facing=east":  { "model": "createhydraulics:block/flow_gauge", "y": 90 },
+		"facing=south": { "model": "createhydraulics:block/flow_gauge", "y": 180 },
+		"facing=west":  { "model": "createhydraulics:block/flow_gauge", "y": 270 }
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "createhydraulics:block/hardened_iron_pipe_core",
+	"textures": {
+		"0": "createhydraulics:block/pressure_valve_deactive",
+		"particle": "createhydraulics:block/pressure_valve_deactive"
+	}
+}

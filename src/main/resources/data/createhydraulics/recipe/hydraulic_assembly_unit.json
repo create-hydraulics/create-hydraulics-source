@@ -1,0 +1,17 @@
+{
+	"__comment": "A brass casing wrapped in iron sheets around a precision mechanism, fed by a pipe on top. A late-game centerpiece to match its make-anything reach.",
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"S": { "item": "create:iron_sheet" },
+		"C": { "item": "create:brass_casing" },
+		"P": { "item": "createhydraulics:hardened_iron_pipe" },
+		"M": { "item": "create:precision_mechanism" }
+	},
+	"pattern": [
+		"SPS",
+		"SCS",
+		"SMS"
+	],
+	"result": { "count": 1, "id": "createhydraulics:hydraulic_assembly_unit" }
+}

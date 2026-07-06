@@ -1,0 +1,12 @@
+{
+	"__comment": "Hydraulic Fist: grinds gravel down into sand.",
+	"type": "createhydraulics:fisting",
+	"ingredient": {
+		"item": "minecraft:gravel"
+	},
+	"result": {
+		"id": "minecraft:sand",
+		"count": 1
+	},
+	"processing_time": 100
+}

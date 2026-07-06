@@ -1,0 +1,75 @@
+{
+	"__comment": "Static in-world model for the Flow Gauge: center body (elements 0,1) + dial housing (element 6) + the two pass-through stubs north & south (elements 5,4). The blockstate rotates this whole model by FACING; the stubs therefore always read as an inline pipe segment along the facing axis. The needle (flow_gauge_needle) is drawn separately by FlowGaugeRenderer. The up/down stubs from the source export are intentionally dropped — the gauge is a horizontal inline device. NOTE: no texture_size (the flow_gauge UVs use the default 16-unit space).",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "createhydraulics:block/flow_gauge",
+		"particle": "createhydraulics:block/flow_gauge"
+	},
+	"elements": [
+		{
+			"from": [4, 5, 4],
+			"to": [12, 13, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 8]},
+			"faces": {
+				"north": {"uv": [4.25, 5, 6.25, 7], "texture": "#0"},
+				"east": {"uv": [6.25, 4.25, 8.25, 6.25], "texture": "#0"},
+				"south": {"uv": [6.25, 6.25, 8.25, 8.25], "texture": "#0"},
+				"west": {"uv": [2.25, 7, 4.25, 9], "texture": "#0"},
+				"up": {"uv": [9, 4.25, 7, 2.25], "texture": "#0"},
+				"down": {"uv": [6.25, 7, 4.25, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.5, 4.5, 7],
+			"to": [12.5, 13.5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 9, 8]},
+			"faces": {
+				"north": {"uv": [0, 5, 2.25, 7.25], "texture": "#0"},
+				"east": {"uv": [0, 11.25, 0.5, 13.5], "texture": "#0"},
+				"south": {"uv": [5, 0, 7.25, 2.25], "texture": "#0"},
+				"west": {"uv": [0.5, 11.25, 1, 13.5], "texture": "#0"},
+				"up": {"uv": [13.5, 0.5, 11.25, 0], "texture": "#0"},
+				"down": {"uv": [13.5, 0.5, 11.25, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 5, 4],
+			"to": [4, 13, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 8, 7]},
+			"faces": {
+				"north": {"uv": [9, 4.25, 9.75, 6.75], "texture": "#0"},
+				"east": {"uv": [8.25, 8.25, 10.25, 10.25], "texture": "#0"},
+				"south": {"uv": [8.25, 4.25, 9, 6.75], "texture": "#0"},
+				"west": {"uv": [6.25, 8.25, 8.25, 10.25], "texture": "#0"},
+				"up": {"uv": [10.5, 4.25, 11.25, 6.75], "texture": "#0"},
+				"down": {"uv": [9.75, 4.25, 10.5, 6.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2.999, 3.999, 0],
+			"to": [13.001, 14.001, 4.001],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 5]},
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 5, 5], "texture": "#0"},
+				"east": {"uv": [2.75, 11, 3.5, 13.5], "texture": "#0"},
+				"south": {"uv": [2.5, 0, 5, 2.5], "texture": "#0"},
+				"west": {"uv": [3.5, 11, 4.25, 13.5], "texture": "#0"},
+				"up": {"uv": [5, 13.5, 4.25, 11], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [11.75, 8, 11, 10.5], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [2.999, 3.999, 11.999],
+			"to": [13.001, 14.001, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 8, 11]},
+			"faces": {
+				"north": {"uv": [2.5, 0, 5, 2.5], "texture": "#0"},
+				"east": {"uv": [3.5, 11, 4.25, 13.5], "texture": "#0"},
+				"south": {"uv": [2.5, 2.5, 5, 5], "texture": "#0"},
+				"west": {"uv": [2.75, 11, 3.5, 13.5], "texture": "#0"},
+				"up": {"uv": [5, 13.5, 4.25, 11], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [11.75, 8, 11, 10.5], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}

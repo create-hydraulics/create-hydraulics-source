@@ -1,0 +1,5 @@
+{
+	"__comment": "Static motor body (empty/unfuelled). Geometry comes from the Blockbench export at models/hydraulic_motor.json; the rotating shaft is drawn separately by HydraulicMotorRenderer. Authored facing -Z (north); the blockstate rotates it to FACING. texture_size is pinned to [16,16] here (the UVs are authored in 16-space) so a re-export of the loose model can't break the mapping.",
+	"parent": "createhydraulics:hydraulic_motor",
+	"texture_size": [16, 16]
+}

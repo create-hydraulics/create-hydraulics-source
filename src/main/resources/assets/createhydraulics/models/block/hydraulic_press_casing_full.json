@@ -1,0 +1,8 @@
+{
+	"__comment": "Full (fluid-loaded) variant of the casing: same geometry as hydraulic_press_casing, but texture #0 is hydraulic_press_full. Selected by the blockstate when FULL=true.",
+	"parent": "createhydraulics:block/hydraulic_press_casing",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "createhydraulics:block/hydraulic_press_full"
+	}
+}

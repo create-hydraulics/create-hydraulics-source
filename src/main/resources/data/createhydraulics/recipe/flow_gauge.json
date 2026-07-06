@@ -1,0 +1,17 @@
+{
+	"__comment": "A pipe section fitted with a dial: glass-pane window on top, iron-sheet body, redstone for the indicating needle.",
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"S": { "item": "create:iron_sheet" },
+		"P": { "item": "createhydraulics:hardened_iron_pipe" },
+		"G": { "item": "minecraft:glass_pane" },
+		"R": { "item": "minecraft:redstone" }
+	},
+	"pattern": [
+		" G ",
+		"SPS",
+		" R "
+	],
+	"result": { "count": 1, "id": "createhydraulics:flow_gauge" }
+}

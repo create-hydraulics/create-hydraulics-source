@@ -1,0 +1,9 @@
+{
+	"__comment": "HORIZONTAL_AXIS is the shaft axis; the rotating shaft is added by CentrifugalCompressorRenderer on both faces along it. The body export is authored with its shaft running north-south (Z), so the X axis rotates the model 90 degrees. 'full' swaps to the fuelled texture while the working-fluid tank holds Hydro Fluid.",
+	"variants": {
+		"axis=z,full=false": { "model": "createhydraulics:block/centrifugal_compressor" },
+		"axis=x,full=false": { "model": "createhydraulics:block/centrifugal_compressor", "y": 90 },
+		"axis=z,full=true":  { "model": "createhydraulics:block/centrifugal_compressor_full" },
+		"axis=x,full=true":  { "model": "createhydraulics:block/centrifugal_compressor_full", "y": 90 }
+	}
+}

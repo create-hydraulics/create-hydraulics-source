@@ -1,0 +1,18 @@
+{
+	"__comment": "A kinetic pressure source: an andesite casing between a shaft (rotation input) and a hardened iron pipe (pressure output), with an encased-fan propeller as the impeller on top, wrapped in an iron-sheet frame to match the rest of the line.",
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"S": { "item": "create:iron_sheet" },
+		"C": { "item": "create:andesite_casing" },
+		"P": { "item": "createhydraulics:hardened_iron_pipe" },
+		"K": { "item": "create:shaft" },
+		"F": { "item": "create:propeller" }
+	},
+	"pattern": [
+		"SFS",
+		"KCP",
+		"SSS"
+	],
+	"result": { "count": 1, "id": "createhydraulics:centrifugal_compressor" }
+}

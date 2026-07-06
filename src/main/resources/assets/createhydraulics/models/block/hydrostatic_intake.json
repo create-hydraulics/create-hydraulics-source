@@ -1,0 +1,5 @@
+{
+	"__comment": "Inactive variant. Inherits all geometry and textures from the BlockBench export at models/hydrostatic_intake.json.",
+	"parent": "createhydraulics:hydrostatic_intake",
+	"render_type": "minecraft:cutout"
+}

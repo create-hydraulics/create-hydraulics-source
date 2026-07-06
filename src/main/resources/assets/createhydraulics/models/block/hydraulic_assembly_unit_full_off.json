@@ -1,0 +1,6 @@
+{
+	"parent": "createhydraulics:hydraulic_assembly_unit",
+	"textures": {
+		"0": "createhydraulics:block/hydraulic_assembly_full_off"
+	}
+}

@@ -1,0 +1,356 @@
+{
+	"__comment": "Static casing of the Hydraulic Fist (body elements of the export at models/hydraulic_fist.json). The moving pole + hand are drawn by HydraulicFistRenderer, not here. Empty variant; the blockstate swaps to *_full when the working-fluid tank holds fluid and rotates this model to the Fist facing. tintindex 0 lets the renderer tint the casing during an overstress flash.",
+	"parent": "block/block",
+	"texture_size": [
+		64,
+		64
+	],
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"1": "createhydraulics:block/hydraulic_fist_vertical_empty",
+		"particle": "createhydraulics:block/hydraulic_fist_vertical_empty",
+		"2_0": "createhydraulics:block/texture"
+	},
+	"elements": [
+		{
+			"name": "Bottom",
+			"from": [
+				0,
+				0,
+				0
+			],
+			"to": [
+				16,
+				16,
+				2
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						4,
+						4
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"east": {
+					"uv": [
+						7,
+						8.5,
+						7.5,
+						12.5
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"south": {
+					"uv": [
+						0,
+						4,
+						4,
+						8
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"west": {
+					"uv": [
+						7.5,
+						8.5,
+						8,
+						12.5
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"up": {
+					"uv": [
+						4,
+						11,
+						0,
+						10.5
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"down": {
+					"uv": [
+						14.5,
+						5,
+						10.5,
+						5.5
+					],
+					"texture": "#1",
+					"tintindex": 0
+				}
+			}
+		},
+		{
+			"name": "Inner",
+			"from": [
+				0.95,
+				2,
+				2
+			],
+			"to": [
+				15.05,
+				14,
+				12
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						4,
+						0,
+						7.5,
+						3
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"east": {
+					"uv": [
+						8,
+						5,
+						10.5,
+						8
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"south": {
+					"uv": [
+						4,
+						3,
+						7.5,
+						6
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"west": {
+					"uv": [
+						8,
+						8,
+						10.5,
+						11
+					],
+					"texture": "#1",
+					"tintindex": 0
+				}
+			}
+		},
+		{
+			"name": "Side",
+			"from": [
+				0,
+				0,
+				2
+			],
+			"to": [
+				16,
+				2,
+				12
+			],
+			"faces": {
+				"east": {
+					"uv": [
+						4,
+						10,
+						6.5,
+						10.5
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"south": {
+					"uv": [
+						10.5,
+						5.5,
+						14.5,
+						6
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"west": {
+					"uv": [
+						4,
+						10.5,
+						6.5,
+						11
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"up": {
+					"uv": [
+						8,
+						8.5,
+						4,
+						6
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"down": {
+					"uv": [
+						11.5,
+						0,
+						7.5,
+						2.5
+					],
+					"texture": "#1",
+					"tintindex": 0
+				}
+			}
+		},
+		{
+			"name": "Side2",
+			"from": [
+				0,
+				14,
+				2
+			],
+			"to": [
+				16,
+				16,
+				12
+			],
+			"faces": {
+				"east": {
+					"uv": [
+						10.5,
+						6.5,
+						13,
+						7
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"south": {
+					"uv": [
+						10.5,
+						6,
+						14.5,
+						6.5
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"west": {
+					"uv": [
+						10.5,
+						7,
+						13,
+						7.5
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"up": {
+					"uv": [
+						11.5,
+						5,
+						7.5,
+						2.5
+					],
+					"texture": "#1",
+					"tintindex": 0
+				},
+				"down": {
+					"uv": [
+						4,
+						8,
+						0,
+						10.5
+					],
+					"texture": "#1",
+					"tintindex": 0
+				}
+			}
+		},
+		{
+			"name": "pressure_port",
+			"from": [
+				2.994,
+				2.994,
+				-2.006
+			],
+			"to": [
+				13.006,
+				13.006,
+				1.994
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						2.5,
+						2.5,
+						5,
+						5
+					],
+					"texture": "#2_0",
+					"tintindex": 0
+				},
+				"south": {
+					"uv": [
+						2.5,
+						0,
+						5,
+						2.5
+					],
+					"texture": "#2_0",
+					"tintindex": 0
+				},
+				"east": {
+					"uv": [
+						2.75,
+						11,
+						3.5,
+						13.5
+					],
+					"rotation": 270,
+					"texture": "#2_0",
+					"tintindex": 0
+				},
+				"west": {
+					"uv": [
+						3.5,
+						11,
+						4.25,
+						13.5
+					],
+					"rotation": 90,
+					"texture": "#2_0",
+					"tintindex": 0
+				},
+				"up": {
+					"uv": [
+						5,
+						13.5,
+						4.25,
+						11
+					],
+					"rotation": 90,
+					"texture": "#2_0",
+					"tintindex": 0
+				},
+				"down": {
+					"uv": [
+						11.75,
+						8,
+						11,
+						10.5
+					],
+					"rotation": 90,
+					"texture": "#2_0",
+					"tintindex": 0
+				}
+			}
+		}
+	]
+}

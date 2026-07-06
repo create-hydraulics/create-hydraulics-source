@@ -1,0 +1,18 @@
+{
+	"__comment": "Static casing only — the reciprocating drill head is drawn by HydraulicDrillRenderer. 'facing' aims the drill (breaking) face; the casing export is authored with its drill toward -Z (north), so north=0, horizontal facings spin about Y (north/east/south/west = 0/90/180/270) and up/down tip about X. These rotations must mirror HydraulicDrillRenderer. 'full' swaps the empty/full texture while the working-fluid tank holds fluid.",
+	"variants": {
+		"facing=north,full=false": { "model": "createhydraulics:block/hydraulic_drill_casing" },
+		"facing=east,full=false":  { "model": "createhydraulics:block/hydraulic_drill_casing", "y": 90 },
+		"facing=south,full=false": { "model": "createhydraulics:block/hydraulic_drill_casing", "y": 180 },
+		"facing=west,full=false":  { "model": "createhydraulics:block/hydraulic_drill_casing", "y": 270 },
+		"facing=down,full=false":  { "model": "createhydraulics:block/hydraulic_drill_casing", "x": 90 },
+		"facing=up,full=false":    { "model": "createhydraulics:block/hydraulic_drill_casing", "x": 270 },
+
+		"facing=north,full=true":  { "model": "createhydraulics:block/hydraulic_drill_casing_full" },
+		"facing=east,full=true":   { "model": "createhydraulics:block/hydraulic_drill_casing_full", "y": 90 },
+		"facing=south,full=true":  { "model": "createhydraulics:block/hydraulic_drill_casing_full", "y": 180 },
+		"facing=west,full=true":   { "model": "createhydraulics:block/hydraulic_drill_casing_full", "y": 270 },
+		"facing=down,full=true":   { "model": "createhydraulics:block/hydraulic_drill_casing_full", "x": 90 },
+		"facing=up,full=true":     { "model": "createhydraulics:block/hydraulic_drill_casing_full", "x": 270 }
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"__comment": "Static casing only — the moving head is drawn by HydraulicPressRenderer. 'facing' spins the casing about Y (cosmetic; the press always acts downward). 'full' swaps the empty/full texture when the working-fluid tank holds fluid. The renderer's facingRotation() must mirror these y values.",
+	"variants": {
+		"facing=north,full=false": { "model": "createhydraulics:block/hydraulic_press_casing" },
+		"facing=east,full=false":  { "model": "createhydraulics:block/hydraulic_press_casing", "y": 90 },
+		"facing=south,full=false": { "model": "createhydraulics:block/hydraulic_press_casing", "y": 180 },
+		"facing=west,full=false":  { "model": "createhydraulics:block/hydraulic_press_casing", "y": 270 },
+
+		"facing=north,full=true":  { "model": "createhydraulics:block/hydraulic_press_casing_full" },
+		"facing=east,full=true":   { "model": "createhydraulics:block/hydraulic_press_casing_full", "y": 90 },
+		"facing=south,full=true":  { "model": "createhydraulics:block/hydraulic_press_casing_full", "y": 180 },
+		"facing=west,full=true":   { "model": "createhydraulics:block/hydraulic_press_casing_full", "y": 270 }
+	}
+}

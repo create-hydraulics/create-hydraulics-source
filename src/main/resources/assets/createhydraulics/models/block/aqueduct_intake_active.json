@@ -1,0 +1,8 @@
+{
+	"__comment": "Active variant. Same geometry as the inactive model (parented from the BlockBench export). Only one texture (aqueduct_intake.png) was supplied, so the active state reuses it for now. To give the active state its own look: drop a texture at textures/block/aqueduct_intake_active.png and change \"0\" below to createhydraulics:block/aqueduct_intake_active.",
+	"parent": "createhydraulics:aqueduct_intake",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "createhydraulics:block/aqueduct_intake"
+	}
+}

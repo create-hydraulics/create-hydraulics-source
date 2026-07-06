@@ -1,0 +1,36 @@
+{
+	"__comment": "Split from models/flow_gauge.json group 'gauge'/'indicator' (elements 7,8): the dial hub + needle. This is NOT referenced by the blockstate; it is registered as an additional model and drawn by FlowGaugeRenderer, which rotates it about the dial pivot [2, 7.5, 9.5] (pixels) by an angle derived from pressure. Modelled here at the rest (0 PU baseline) position.",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "createhydraulics:block/flow_gauge",
+		"particle": "createhydraulics:block/flow_gauge"
+	},
+	"elements": [
+		{
+			"from": [1.75, 7.1, 9.1],
+			"to": [3, 7.9, 9.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 7, 8]},
+			"faces": {
+				"north": {"uv": [10, 13.35, 11.25, 14.15], "texture": "#0"},
+				"east": {"uv": [10.1, 13.35, 10.9, 14.15], "texture": "#0"},
+				"south": {"uv": [10.75, 13.35, 12, 14.15], "texture": "#0"},
+				"west": {"uv": [11.1, 13.35, 11.9, 14.15], "texture": "#0"},
+				"up": {"uv": [10, 10.85, 11.25, 11.65], "texture": "#0"},
+				"down": {"uv": [10, 12.35, 11.25, 13.15], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1.85, 7.2, 9.2],
+			"to": [3, 10.7, 9.8],
+			"rotation": {"angle": 0, "axis": "x", "origin": [2, 7.5, 9.5]},
+			"faces": {
+				"north": {"uv": [12.5, 8.8, 13.65, 12.3], "texture": "#0"},
+				"east": {"uv": [13.2, 5.05, 13.8, 8.55], "texture": "#0"},
+				"south": {"uv": [13.85, 8.8, 15, 12.3], "texture": "#0"},
+				"west": {"uv": [14.2, 5.05, 14.8, 8.55], "texture": "#0"},
+				"up": {"uv": [13.6, 3.45, 14.75, 4.05], "texture": "#0"},
+				"down": {"uv": [11.6, 5.95, 12.75, 6.55], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"__comment": "Static casing only — the moving pole + hand are drawn by HydraulicFistRenderer. 'facing' aims the casing's punch face (the body is authored pointing +Z/south, so south=0). Horizontal facings spin about Y; up/down tip about X. These rotations must mirror HydraulicFistRenderer (facingRotation() for Y; DOWN=x:270/UP=x:90 so the head's XP +90/-90 lines up). 'full' swaps the empty/full texture when the working-fluid tank holds fluid.",
+	"variants": {
+		"facing=south,full=false": { "model": "createhydraulics:block/hydraulic_fist_casing" },
+		"facing=west,full=false":  { "model": "createhydraulics:block/hydraulic_fist_casing", "y": 90 },
+		"facing=north,full=false": { "model": "createhydraulics:block/hydraulic_fist_casing", "y": 180 },
+		"facing=east,full=false":  { "model": "createhydraulics:block/hydraulic_fist_casing", "y": 270 },
+		"facing=down,full=false":  { "model": "createhydraulics:block/hydraulic_fist_casing", "x": 270 },
+		"facing=up,full=false":    { "model": "createhydraulics:block/hydraulic_fist_casing", "x": 90 },
+
+		"facing=south,full=true":  { "model": "createhydraulics:block/hydraulic_fist_casing_full" },
+		"facing=west,full=true":   { "model": "createhydraulics:block/hydraulic_fist_casing_full", "y": 90 },
+		"facing=north,full=true":  { "model": "createhydraulics:block/hydraulic_fist_casing_full", "y": 180 },
+		"facing=east,full=true":   { "model": "createhydraulics:block/hydraulic_fist_casing_full", "y": 270 },
+		"facing=down,full=true":   { "model": "createhydraulics:block/hydraulic_fist_casing_full", "x": 270 },
+		"facing=up,full=true":     { "model": "createhydraulics:block/hydraulic_fist_casing_full", "x": 90 }
+	}
+}

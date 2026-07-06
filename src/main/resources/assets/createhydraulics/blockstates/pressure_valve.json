@@ -1,0 +1,20 @@
+{
+	"multipart": [
+		{ "when": {"powered": "false"}, "apply": {"model": "createhydraulics:block/pressure_valve_core_off"} },
+		{ "when": {"powered": "true"},  "apply": {"model": "createhydraulics:block/pressure_valve_core_on"} },
+
+		{ "when": {"powered": "false", "north": "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_north_off"} },
+		{ "when": {"powered": "false", "south": "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_south_off"} },
+		{ "when": {"powered": "false", "east":  "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_east_off"} },
+		{ "when": {"powered": "false", "west":  "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_west_off"} },
+		{ "when": {"powered": "false", "up":    "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_up_off"} },
+		{ "when": {"powered": "false", "down":  "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_down_off"} },
+
+		{ "when": {"powered": "true", "north": "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_north_on"} },
+		{ "when": {"powered": "true", "south": "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_south_on"} },
+		{ "when": {"powered": "true", "east":  "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_east_on"} },
+		{ "when": {"powered": "true", "west":  "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_west_on"} },
+		{ "when": {"powered": "true", "up":    "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_up_on"} },
+		{ "when": {"powered": "true", "down":  "true"}, "apply": {"model": "createhydraulics:block/pressure_valve_arm_down_on"} }
+	]
+}

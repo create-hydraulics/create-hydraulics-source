@@ -1,0 +1,7 @@
+{
+	"__comment": "Active/inactive model swap. The 'active' property is set by AqueductIntakeBlockEntity each tick from its submersion check. The block never rotates — its pressure output is always the top face.",
+	"variants": {
+		"active=false": { "model": "createhydraulics:block/aqueduct_intake" },
+		"active=true":  { "model": "createhydraulics:block/aqueduct_intake_active" }
+	}
+}

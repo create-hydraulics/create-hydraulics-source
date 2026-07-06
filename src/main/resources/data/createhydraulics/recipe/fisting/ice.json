@@ -1,0 +1,12 @@
+{
+	"__comment": "Hydraulic Fist: compresses ice into packed ice.",
+	"type": "createhydraulics:fisting",
+	"ingredient": {
+		"item": "minecraft:ice"
+	},
+	"result": {
+		"id": "minecraft:packed_ice",
+		"count": 1
+	},
+	"processing_time": 100
+}

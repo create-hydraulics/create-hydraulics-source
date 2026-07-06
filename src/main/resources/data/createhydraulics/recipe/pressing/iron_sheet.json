@@ -1,0 +1,12 @@
+{
+	"__comment": "Example Hydraulic Press recipe: place an iron ingot on a Depot beneath the press and it stamps it into an iron sheet. Add more files in this folder to define your own pressing recipes.",
+	"type": "createhydraulics:pressing",
+	"ingredient": {
+		"item": "minecraft:iron_ingot"
+	},
+	"result": {
+		"id": "create:iron_sheet",
+		"count": 1
+	},
+	"processing_time": 100
+}

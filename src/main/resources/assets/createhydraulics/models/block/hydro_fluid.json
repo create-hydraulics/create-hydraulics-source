@@ -1,0 +1,6 @@
+{
+	"__comment": "Empty model for the Hydro Fluid liquid block — only a particle texture; the liquid itself is drawn by the fluid renderer.",
+	"textures": {
+		"particle": "minecraft:block/water_still"
+	}
+}

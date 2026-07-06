@@ -1,0 +1,12 @@
+{
+	"__comment": "Hydraulic Fist: pulverises cobblestone into gravel.",
+	"type": "createhydraulics:fisting",
+	"ingredient": {
+		"item": "minecraft:cobblestone"
+	},
+	"result": {
+		"id": "minecraft:gravel",
+		"count": 1
+	},
+	"processing_time": 100
+}

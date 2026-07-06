@@ -1,0 +1,7 @@
+{
+	"__comment": "Active/inactive model swap. The 'active' property is set by HydrostaticIntakeBlockEntity each tick from its water-column check. The block never rotates — its pressure output is always the bottom face, and the water column it reads is always above.",
+	"variants": {
+		"active=false": { "model": "createhydraulics:block/hydrostatic_intake" },
+		"active=true":  { "model": "createhydraulics:block/hydrostatic_intake_active" }
+	}
+}

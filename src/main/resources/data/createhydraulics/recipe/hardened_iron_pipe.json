@@ -1,0 +1,14 @@
+{
+	"__comment": "Two rows of pressed iron sheets form a hollow pipe — six sheets yield six pipes for bulk runs.",
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"S": { "item": "create:iron_sheet" }
+	},
+	"pattern": [
+		"SSS",
+		"   ",
+		"SSS"
+	],
+	"result": { "count": 6, "id": "createhydraulics:hardened_iron_pipe" }
+}

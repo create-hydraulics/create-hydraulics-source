@@ -1,0 +1,5 @@
+{
+	"__comment": "Static motor body for vertical (up/down) facings, empty. Authored shaft +Y (up); the blockstate flips it for facing=down. texture_size pinned to [16,16] (UVs are 16-space) so a re-export can't break the mapping.",
+	"parent": "createhydraulics:hydraulic_motor_vertical",
+	"texture_size": [16, 16]
+}

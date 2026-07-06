@@ -1,0 +1,35 @@
+{
+	"__comment": "Moving press head (elements 5-6 of models/hydraulic_press.json: the piston shaft + the press foot). This is NOT referenced by the blockstate; it is registered as an additional model and drawn by HydraulicPressRenderer, which slides it down the Y axis by the stroke progress. Modelled here at the rest position (offset 0). Empty variant; #0 is hydraulic_press_empty.",
+	"texture_size": [128, 128],
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "createhydraulics:block/hydraulic_press_empty",
+		"particle": "createhydraulics:block/texture"
+	},
+	"elements": [
+		{
+			"from": [6, 3, 6],
+			"to": [10, 17.5, 10],
+			"faces": {
+				"north": {"uv": [0, 5.25, 0.5, 7.375], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0.5, 5.25, 1, 7.375], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [1, 5.25, 1.5, 7.375], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [1.5, 5.25, 2, 7.375], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [6.125, 2.875, 5.625, 2.375], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [6.5, 4.625, 6, 5.125], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [4.5, 0, 4.5],
+			"to": [11.5, 4.6, 11.5],
+			"faces": {
+				"north": {"uv": [5.375, 5.375, 6.25, 6], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [5.5, 0, 6.375, 0.625], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [5.5, 0.625, 6.375, 1.25], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [5.625, 1.25, 6.5, 1.875], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [2.875, 6.125, 2, 5.25], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [5.375, 5.375, 4.5, 6.25], "texture": "#0", "tintindex": 0}
+			}
+		}
+	]
+}

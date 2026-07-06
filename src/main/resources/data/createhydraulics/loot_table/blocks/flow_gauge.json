@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{ "condition": "minecraft:survives_explosion" }
+			],
+			"entries": [
+				{ "type": "minecraft:item", "name": "createhydraulics:flow_gauge" }
+			]
+		}
+	],
+	"random_sequence": "createhydraulics:blocks/flow_gauge"
+}

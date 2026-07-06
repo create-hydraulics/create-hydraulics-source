@@ -1,0 +1,24 @@
+{
+	"__comment": "Split from models/hardened_iron_pipe.json group 'stub_east' (element 4). Applied when east=true.",
+	"render_type": "minecraft:cutout",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "createhydraulics:block/texture",
+		"particle": "createhydraulics:block/texture"
+	},
+	"elements": [
+		{
+			"from": [12, 4, 3],
+			"to": [16, 14, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 8, 7]},
+			"faces": {
+				"north": {"uv": [10.25, 8, 11, 10.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 2.5, 2.5], "texture": "#0"},
+				"south": {"uv": [10, 10.5, 10.75, 13], "texture": "#0"},
+				"west": {"uv": [0, 2.5, 2.5, 5], "texture": "#0"},
+				"up": {"uv": [11.5, 13, 10.75, 10.5], "texture": "#0"},
+				"down": {"uv": [2.75, 11, 2, 13.5], "texture": "#0"}
+			}
+		}
+	]
+}

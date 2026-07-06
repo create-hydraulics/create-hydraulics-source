@@ -1,0 +1,10 @@
+{
+	"__comment": "Static compressor body (idle). Geometry comes from the Blockbench export at models/centrifugal_compressor.json; the rotating shaft is drawn separately by CentrifugalCompressorRenderer. Authored with the shaft toward Z (north/south); the blockstate rotates it to the placed axis. Binds the 'empty' (idle) texture.",
+	"parent": "createhydraulics:centrifugal_compressor",
+	"render_type": "minecraft:cutout",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "createhydraulics:block/centrifugal_compressor_empty",
+		"particle": "createhydraulics:block/centrifugal_compressor_empty"
+	}
+}

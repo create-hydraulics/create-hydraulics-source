@@ -1,0 +1,17 @@
+{
+	"__comment": "Create: Hydraulics blocks are harvested with a pickaxe. Merged additively with vanilla/other mods' copies of this tag.",
+	"replace": false,
+	"values": [
+		"createhydraulics:hardened_iron_pipe",
+		"createhydraulics:pressure_valve",
+		"createhydraulics:flow_gauge",
+		"createhydraulics:aqueduct_intake",
+		"createhydraulics:hydrostatic_intake",
+		"createhydraulics:centrifugal_compressor",
+		"createhydraulics:hydraulic_press",
+		"createhydraulics:hydraulic_motor",
+		"createhydraulics:hydraulic_fist",
+		"createhydraulics:hydraulic_drill",
+		"createhydraulics:hydraulic_assembly_unit"
+	]
+}

@@ -1,0 +1,7 @@
+﻿{
+	"parent": "createhydraulics:block/hardened_iron_pipe_arm_north",
+	"textures": {
+		"0": "createhydraulics:block/pressure_valve_deactive",
+		"particle": "createhydraulics:block/pressure_valve_deactive"
+	}
+}

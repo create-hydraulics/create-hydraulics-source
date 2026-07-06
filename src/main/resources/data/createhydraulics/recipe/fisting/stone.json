@@ -1,0 +1,12 @@
+{
+	"__comment": "Hydraulic Fist: brute force fractures solid stone into cobblestone. Works both in-world (the Fist crushes a Stone block in place) and on belts/depots (a Stone item passing under is crushed).",
+	"type": "createhydraulics:fisting",
+	"ingredient": {
+		"item": "minecraft:stone"
+	},
+	"result": {
+		"id": "minecraft:cobblestone",
+		"count": 1
+	},
+	"processing_time": 100
+}

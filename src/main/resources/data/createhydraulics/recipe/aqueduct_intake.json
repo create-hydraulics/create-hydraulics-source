@@ -1,0 +1,17 @@
+{
+	"__comment": "Submerged pressure source: an iron-sheet shell over an andesite-alloy core, a bucket for water intake, and a pipe stub for the top output.",
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"S": { "item": "create:iron_sheet" },
+		"A": { "item": "create:andesite_alloy" },
+		"P": { "item": "createhydraulics:hardened_iron_pipe" },
+		"B": { "item": "minecraft:bucket" }
+	},
+	"pattern": [
+		"SBS",
+		"APA",
+		"SAS"
+	],
+	"result": { "count": 1, "id": "createhydraulics:aqueduct_intake" }
+}

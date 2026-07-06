@@ -1,0 +1,10 @@
+{
+	"__comment": "Compressor body with the running 'full' texture; shown while it is compressing (ACTIVE). Inherits geometry from the export and only rebinds the texture.",
+	"parent": "createhydraulics:centrifugal_compressor",
+	"render_type": "minecraft:cutout",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "createhydraulics:block/centrifugal_compressor_full",
+		"particle": "createhydraulics:block/centrifugal_compressor_full"
+	}
+}

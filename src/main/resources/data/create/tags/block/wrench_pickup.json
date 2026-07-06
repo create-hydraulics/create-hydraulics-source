@@ -1,0 +1,10 @@
+{
+	"__comment": "Adds this mod's non-rotatable blocks to Create's wrench_pickup tag, so sneak + wrench dismantles them straight into the player's inventory (the same generic pickup Create's own wrench uses). The directional machines (Motor, Press, Flow Gauge) are IWrenchable instead and handle their own pickup.",
+	"replace": false,
+	"values": [
+		"createhydraulics:hardened_iron_pipe",
+		"createhydraulics:pressure_valve",
+		"createhydraulics:aqueduct_intake",
+		"createhydraulics:hydrostatic_intake"
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"__comment": "Hydro Fluid liquid block. It renders via the fluid renderer (textures/tint come from the client fluid-type extensions in CreateHydraulicsClient); this just supplies a particle texture and silences the missing-model warning.",
+	"variants": {
+		"": { "model": "createhydraulics:block/hydro_fluid" }
+	}
+}

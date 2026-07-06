@@ -1,0 +1,17 @@
+{
+	"__comment": "Sibling of the Aqueduct Intake: same iron-sheet shell, andesite-alloy core and pipe stub, but a glass-pane sight window for the water column it reads above (output is the bottom face).",
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"S": { "item": "create:iron_sheet" },
+		"A": { "item": "create:andesite_alloy" },
+		"P": { "item": "createhydraulics:hardened_iron_pipe" },
+		"G": { "item": "minecraft:glass_pane" }
+	},
+	"pattern": [
+		"SAS",
+		"APA",
+		"SGS"
+	],
+	"result": { "count": 1, "id": "createhydraulics:hydrostatic_intake" }
+}

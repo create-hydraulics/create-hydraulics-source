@@ -1,0 +1,10 @@
+{
+	"__comment": "Placeholder recipe: a Water Bucket plus a piece of Coal makes a Hydro Fluid Bucket, the working medium of every Hydraulic machine. Swap it for a proper recipe (such as a Create mixing recipe) whenever you like.",
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{ "item": "minecraft:water_bucket" },
+		{ "item": "minecraft:coal" }
+	],
+	"result": { "count": 1, "id": "createhydraulics:hydro_fluid_bucket" }
+}
