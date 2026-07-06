@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/Discord-Join%20the%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
   </a>
   &nbsp;
-  <a href="https://modrinth.com/mod/create-hydraulics">
+  <a href="https://modrinth.com/mod/createhydraulics">
     <img src="https://img.shields.io/badge/Modrinth-Download-1bd96a?style=for-the-badge&logo=modrinth&logoColor=white" alt="Modrinth">
   </a>
   &nbsp;
