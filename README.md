@@ -44,11 +44,11 @@ Every machine has full Ponder support. Press **W** while hovering any item from 
 
 <p>
   <a href="https://neoforged.net">
-    <img src="https://raw.githubusercontent.com/create-hydraulics/create-hydraulics-source/main/media/dep_neoforge.png" alt="NeoForge" width="80px">
+    <img src="https://raw.githubusercontent.com/create-hydraulics/create-hydraulics-source/main/media/NeoForge.png" alt="NeoForge" width="80px">
   </a>
   &nbsp;
   <a href="https://github.com/Creators-of-Create/Create">
-    <img src="https://raw.githubusercontent.com/create-hydraulics/create-hydraulics-source/main/media/dep_create.png" alt="Create" width="80px">
+    <img src="https://raw.githubusercontent.com/create-hydraulics/create-hydraulics-source/main/media/Create.png" alt="Create" width="80px">
   </a>
 </p>
 
