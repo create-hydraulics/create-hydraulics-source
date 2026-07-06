@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <a href="https://discord.gg/INVITE_LINK_HERE">
+  <a href="https://discord.gg/JD9t8RvuzZ">
     <img src="https://img.shields.io/badge/Discord-Join%20the%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
   </a>
   &nbsp;
@@ -66,7 +66,7 @@ Hydraulic pressure is measured in **PU (Pressure Units)**. Pipes carry pressure 
 Join the Discord server to ask questions, share builds, report bugs, or follow development.
 
 <p>
-  <a href="https://discord.gg/INVITE_LINK_HERE">
+  <a href="https://discord.gg/JD9t8RvuzZ">
     <img src="https://img.shields.io/badge/Discord-Join%20Now-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord">
   </a>
 </p>
