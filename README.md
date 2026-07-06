@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  A hydraulic pressure expansion for the Create mod. Victorian industrial engineering, brought to life.
+  A hydraulic pressure expansion for the Create mod. Pressure and Hydraulics, brought to life.
 </p>
 
 <br>
@@ -34,9 +34,6 @@ Create: Hydraulics adds a **hydraulic pressure network** to Minecraft as a compa
 
 Every machine has full Ponder support. Press **W** while hovering any item from this mod to open its scene.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/create-hydraulics/create-hydraulics-source/main/media/overview.png" alt="Overview screenshot" width="80%">
-</p>
 
 ---
 
@@ -62,9 +59,7 @@ Optional configuration lives in `config/createhydraulics-common.toml` after the 
 
 Hydraulic pressure is measured in **PU (Pressure Units)**. Pipes carry pressure between segments, sources push it in, and machines draw from it. If the total load on a line exceeds its supplied pressure, every machine on that line stalls until the balance is restored.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/create-hydraulics/create-hydraulics-source/main/media/pressure_network.png" alt="Pressure network diagram" width="75%">
-</p>
+
 
 ---
 
@@ -84,12 +79,13 @@ Join the Discord server to ask questions, share builds, report bugs, or follow d
 
 <p align="center">
   <sub>LEAD DEVELOPER</sub><br>
-  <strong>[Your name here]</strong>
+  <strong>(@efegorkemefe) arikutov2</strong>
 </p>
 
 <p align="center">
   <sub>SUPPORTERS</sub><br>
-  [Supporter names here]
+  1 - test
+  2 - test
 </p>
 
 ---
