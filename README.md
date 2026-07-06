@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/create-hydraulics/create-hydraulics-source/main/media/banner.png" alt="Create: Hydraulics" width="100%">
-</p>
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/create-hydraulics/create-hydraulics-source/main/media/logo.png" alt="Create: Hydraulics" width="360px">
