@@ -81,9 +81,19 @@ Join the Discord server to ask questions, share builds, report bugs, or follow d
 </p>
 
 <p align="center">
+  <sub>CONTRIBUTORS</sub><br>
+  <strong>VoidGMZ</strong>
+  <strong>alemega099</strong>
+</p>
+
+<p align="center">
   <sub>SUPPORTERS</sub><br>
-  1 - test
-  2 - test
+  flowey___ • captclockobob • stevenclayhilton • .fastdagger • deadeye550 • fojamo • robplox2010 • itzapurplefox • lukanura • painful12345 • nuggetking1000 • partisdiabolica_47384 • spcommand233 • .timer • willy4050 • thexiiithguardianofchaos • ._.meeko._. • thesixteenthroot • medommf1093 • joarwhat • alexmonterom • archont3 • milyhya_ • lolbit0321 • dyyziek • datubaman • error404_mk2 • markusskokins • oskar9049 • freepotato • gegentan • ryszard3438 • whatamidoingaaaaa • infantek • kitten_with_a_bomb • superrobot14 • ll760dd • ligt04 • luckytaco. • lynel5314 • gamekrazy1311 • melonesa • mobcrafter • nuru498 • orguex • neneucuranfsist_66121 • ryuzan • ralsii • stektpotatis • emil147646 • thestrongest4242 • 73ratsinatrenchcoat • rural22 • darthrevan8239 • snowxykx
+
+</p>
+
+<p align="center">
+  Thanks to our supporters who have kept us going and helped us in every manner possible.
 </p>
 
 ---
