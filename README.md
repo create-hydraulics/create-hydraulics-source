@@ -82,8 +82,8 @@ Join the Discord server to ask questions, share builds, report bugs, or follow d
 
 <p align="center">
   <sub>CONTRIBUTORS</sub><br>
-  <strong>VoidGMZ</strong>
-  <strong>alemega099</strong>
+  <strong>VoidGMZ │ alemega099</strong>
+  
 </p>
 
 <p align="center">
